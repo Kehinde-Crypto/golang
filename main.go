@@ -3,6 +3,7 @@ package main
 import "fmt"
 
 func main() {
+	// this project is the basic syntax of using golang
 	// var smsSendingLimit int
 	// var costPerSMS float64
 	// var hasPermission bool
