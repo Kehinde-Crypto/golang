@@ -23,6 +23,7 @@ func add(x, y int) int {
 }
 
 func main() {
+	// this project is the basic syntax of using golang
 	// if you are note using a varaible in go land you indcate it with an underscore _
 	// var smsSendingLimit int
 	// var costPerSMS float64
