@@ -62,5 +62,7 @@ func main() {
 	if messageLen <= 5 {
 		fmt.Println("The message is too long")
 	}
+	func test(authInfo authenticationInfo){
+	fmt.Println(authInfo.getBasic
 
 }
