@@ -5,7 +5,7 @@ import (
 )
 
 type name struct {
-	message   string // poneNumber int
+	message   string // phoneNumber int
 	sender    user
 	recipient user
 }
@@ -24,7 +24,7 @@ func add(x, y int) int {
 
 func main() {
 	// this project is the basic syntax of using golang
-	// if you are note using a varaible in go land you indcate it with an underscore _
+	// if you are note using a variable in go land you indicate it with an underscore _
 	// var smsSendingLimit int
 	// var costPerSMS float64
 	// var hasPermission bool
@@ -62,5 +62,35 @@ func main() {
 	if messageLen <= 5 {
 		fmt.Println("The message is too long")
 	}
+	// func cansendMessage(mToSend messageToSend) bool{
+	// 	return true
+	// }
+	myCar:= struct{
+		Make string
+		Model string
+	}{
+		Make: "Toyota",
+		Model: "Camry",
+	}
+	type car struct {
+		make string
+		model string
+	}
+	type truck struct{
+		car
+		bedSize string
+	}
+	type rect struct{
+		width int
+		height  int
+	}
+	func (r rect) area() int {
+		return r.width * r.height
+	}
+	r:= rect{
+		width: 10,
+    height: 5,
+	}
+	
 
 }
