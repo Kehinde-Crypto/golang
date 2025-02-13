@@ -5,7 +5,7 @@ import (
 )
 
 type name struct {
-	message   string // poneNumber int
+	message   string // phone number int
 	sender    user
 	recipient user
 }
@@ -23,8 +23,8 @@ func add(x, y int) int {
 }
 
 func main() {
-	// this project is the basic syntax of using golang
-	// if you are note using a varaible in go land you indcate it with an underscore _
+	//This project is the basic syntax of using Golang
+	//If you are not using a variable in golang you indcate it with an underscore _
 	// var smsSendingLimit int
 	// var costPerSMS float64
 	// var hasPermission bool
@@ -33,7 +33,7 @@ func main() {
 	// 	"%v %f %v %q \n",
 	// 	smsSendingLimit,
 	// 	costPerSMS,
-	// 	hasPermission,
+	// 	haspermission,
 	// 	username,
 	// )
 	// // var username string = "taiye"
@@ -63,6 +63,6 @@ func main() {
 		fmt.Println("The message is too long")
 	}
 	func test(authInfo authenticationInfo){
-	fmt.Println(authInfo.getBasic
+	fmt.Println(authInfo.getBasic)
 
 }
