@@ -1,6 +1,6 @@
-package main
+package main t
 
-import "fmt" // standard module to primt things the console
+import "fmt" // standard module to print things the console
 
 func main() {
 	var tim_name2 string = "Kehinde"
