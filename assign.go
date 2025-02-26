@@ -1,6 +1,6 @@
 package main
 
-import "fmt"
+import "fmt" // to be able to print syntax 
 
 func main() {
 	sendSoFar := 430
