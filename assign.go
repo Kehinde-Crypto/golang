@@ -1,5 +1,4 @@
-package main
-
+package main // It provides identity to the  file name
 import "fmt" // to be able to print syntax 
 
 func main() {
